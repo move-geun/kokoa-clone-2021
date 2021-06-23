@@ -8,6 +8,8 @@
 @import "components/nav.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/more.css";
+@import "components/icon-row.css";
 
 /*screen*/
 @import "screen/login.css";
