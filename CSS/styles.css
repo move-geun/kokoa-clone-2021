@@ -11,6 +11,7 @@
 @import "components/more.css";
 @import "components/icon-row.css";
 @import "components/alt-head.css";
+@import "components/no-mobile.css";
 
 /*screen*/
 @import "screen/login.css";
@@ -18,6 +19,7 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/setting.css";
+@import "screen/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;

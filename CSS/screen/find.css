@@ -128,3 +128,21 @@
   margin: 30px 0px;
   border-bottom: var(--main-border);
 }
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-chat-home__column .open-chat-home__picture-count i:hover {
+  animation: heartbeat 1s linear infinite;
+  will-change: transform;
+}

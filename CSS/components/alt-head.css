@@ -14,7 +14,18 @@
 .alt-head__column:first-child {
   margin-right: auto;
 }
-
+.alt-head__column:nth-child(2) {
+  text-align: center;
+}
 .alt-head__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-head__column span:last-child {
+  margin-left: 20px;
+}
+
+.alt-head__column {
+  width: 33%;
 }
