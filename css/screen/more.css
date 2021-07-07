@@ -1,0 +1,67 @@
+.more__noti {
+  left: 130px;
+  bottom: 20px;
+}
+
+.more__exclamation {
+  color: tomato;
+}
+
+.icon-row__blank {
+  color: white;
+}
+
+.more-icon__noti {
+  position: relative;
+}
+
+.more__talk-noti {
+  left: 60px;
+  bottom: 60px;
+}
+
+.more-suggestions {
+  border-top: var(--main-border);
+  margin-top: 20px;
+}
+
+.more-suggestions__title {
+  margin: 30px 0px;
+  font-weight: 600;
+}
+.more-suggestions__icon span {
+  margin-top: 13px;
+  opacity: 0.7;
+}
+
+.more-suggestions__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__box-case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.more-suggestions__icon i {
+  font-size: 32px;
+  color: white;
+}
+
+.more-suggestions__icon-blank {
+  color: white;
+  background-color: white;
+}
