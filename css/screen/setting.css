@@ -24,11 +24,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.setting-nav__noti {
   position: relative;
 }
+
 .settings-nav {
   width: 25px;
   height: 25px;
@@ -37,9 +35,13 @@
   position: absolute;
   color: white;
   font-size: 13px;
-  left: 133px;
+  left: 110px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.settings-anothernav {
+  left: 120px;
 }
